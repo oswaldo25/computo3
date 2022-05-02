@@ -104,7 +104,7 @@
     </section>
 	<section class="page-header">
         <div class="container">
-	        <h1 class="title-ucol">COMPUTO EN LA NUBE fime</h1>
+	        <h1 class="title-ucol">COMPUTO EN LA NUBE fime Encuesta</h1>
 	    </div><!--/ Cierra .container /-->
     </section>
     <nav class="nav-sistema">
@@ -121,7 +121,7 @@
 	            <li class="nav-item">
 	                <a class="a1 nav-link" data-hover="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
 	                    <div class="oIcono opcion1"></div>
-	                    Noticias
+	                    Encuesta
 	                </a>
 	                <!--[if gte IE 7]><!--><!--<![endif]--><!--[if lte IE 6]>
 	                <table>
