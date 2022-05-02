@@ -104,7 +104,7 @@
     </section>
 	<section class="page-header">
         <div class="container">
-	        <h1 class="title-ucol">COMPUTO EN LA NUBE</h1>
+	        <h1 class="title-ucol">COMPUTO EN LA NUBE fime</h1>
 	    </div><!--/ Cierra .container /-->
     </section>
     <nav class="nav-sistema">
