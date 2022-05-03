@@ -166,47 +166,203 @@
 			<div class="col-xl-6 col-lg-4 col-md-4 col-xs-12 main"> 
 	<div class="col-xl-12 col-lg-12 col-md-12 col-xs-12 main" align="center"> -->
 		
-	     <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="encuesta.php" method="post" enctype="multipart/form-data">
+	     <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="registrarp.php" method="post" enctype="multipart/form-data">
 	    <div class="w3-section"> 
-	    	<label><b>Sabes o has escuchado del termino Cloud Computing (Computo en la nube)?</b></label><br>
-            <input type="radio" id="html" name="respuesta1" value="Si">
-             <label for="html">Si</label><br>
-             <input type="radio" id="css" name="respuesta1" value="No">
-            <label for="css">No</label><br>
+	    	<label>dia:</label>
+		  	<select  name="dia">
+ 			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			   <option value="4">4</option>
+			  <option value="5">5</option>
+			  <option value="6">6</option>
+			   <option value="7">7</option>
+			  <option value="8">8</option>
+			  <option value="9">9</option>
+			   <option value="10">10</option>
+			  <option value="11">11</option>
+			  <option value="12">12</option>
+			   <option value="13">13</option>
+			   <option value="14">14</option>
+			  <option value="15">15</option>
+			  <option value="16">16</option>
+			   <option value="17">17</option>
+			   <option value="18">18</option>
+			  <option value="19">18</option>
+			  <option value="20">20</option>
+			   <option value="21">21</option>
+			   <option value="22">22</option>
+			  <option value="23">23</option>
+			  <option value="24">24</option>
+			   <option value="25">25</option>
+			   <option value="26">26</option>
+			  <option value="27">27</option>
+			  <option value="28">28</option>
+			   <option value="29">29</option>
+			   <option value="30">30</option>
+			  <option value="31">31</option>
+		    </select>
 		</div>
 		<div class="w3-section"> 
-	    	<label>Cree que se beneficie FIME por la enseñanza de Cloud Computing?</label><br>
-            <input type="radio" id="html" name="respuesta2" value="Si">
-             <label for="html">Si</label><br>
-             <input type="radio" id="css" name="respuesta2" value="No">
-            <label for="css">No</label><br>
+	    	<label>Mes:</label>
+		  	<select name="mes" >
+ 			  <option value="1">Enero</option>
+			  <option value="2">Febrero</option>
+			  <option value="3">Marzo</option>
+			  <option value="4">Abril</option>
+			  <option value="5">Mayo</option>
+			  <option value="6">Junio</option>
+			  <option value="7">Julio</option>
+			  <option value="8">Agosto</option>
+			  <option value="9">Septiembre</option>
+			  <option value="10">Octubre</option>
+			  <option value="11">Noviembre</option>
+			  <option value="12">Diciembre</option>
+		    </select>
 		</div>
-		
+		<div class="w3-section"> 
+	    	<label>Año:</label>
+		  	<select name="ano" >
+ 			  <option value="1985">1985</option>
+			  <option value="1986">1986</option>
+			  <option value="1987">1987</option>
+			  <option value="1988">1988</option>
+			  <option value="1989">1989</option>
+			  <option value="1990">1990</option>
+			  <option value="1991">1991</option>
+			  <option value="1992">1992</option>
+			  <option value="1993">1993</option>
+			  <option value="1994">1994</option>
+			  <option value="1995">1995</option>
+			  <option value="1996">1996</option>
+			  <option value="1997">1997</option>
+			  <option value="1998">1998</option>
+			  <option value="1999">1999</option>
+			  <option value="2000">2000</option>
+			  <option value="2001">2001</option>
+			  <option value="2002">2002</option>
+			  <option value="2003">2003</option>
+			  <option value="2004">2004</option>
+			  <option value="2005">2005</option>
+			  <option value="2006">2006</option>
+			  <option value="2007">2007</option>
+			  <option value="2008">2008</option>
+			  <option value="2009">2009</option>
+			  <option value="2010">2010</option>
+			  <option value="2011">2011</option>
+			  <option value="2012">2012</option>
+			  <option value="2013">2013</option>
+			  <option value="2014">2014</option>
+			  <option value="2015">2015</option>
+			  <option value="2016">2016</option>
+			  <option value="2017">2017</option>
+			  <option value="2018">2018</option>
+			  <option value="2019">2019</option>
+			  <option value="2020">2020</option>
+			  <option value="2021">2021</option>
+			  <option value="2022">2022</option>
+			  
+		    </select>
+		</div>
+		<div class="w3-section">      
+          <label>Titulo de la Noticia:</label>
+          <input  type="text" name="titulo" >
+        </div>  
+        <div class="w3-section"> 
+	    	<label>Etapa Deportiva: </label>
+		  	<select name="etapa" >
+ 			  <option value="regional">Regional</option>
+			  <option value="nacional">Nacional</option>
+			  <option value="mundial">Mundial</option>
+			  <option value="internacional">Internacional</option>
+			  
+		    </select>
+		</div>
+        <div class="w3-section"> 
+	    	<label>Deporte: </label>
+		  	<select name="deporte" >
+ 			  <option value="futbolAsoc">Futbol Asociacion</option>
+			  <option value="futbolBardas">Futbol Bardas</option>
+			  <option value="basquetbol">Basquetbol</option>
+			  <option value="basquetbol3x3">Basquetbol 3x3</option>
+			  <option value="voleibolS">Voleibol de Sala</option>
+			  <option value="voleibolP">Voleibol de Playa</option>
+			  <option value="beisbol">Beisbol</option>
+			  <option value="hanball">Hanball</option>
+			  <option value="rugby">rugby Sevens</option>
+			  <option value="softbol">Softbol</option>
+			  <option value="tochito">Tochito</option>
+              <option value="atletismo">Atletismo</option>
+              <option value="natacion">Natacion</option>
+			  <option value="ajedrez">Ajedrez</option>
+			  <option value="badminton">Badminton</option>
+			  <option value="boxeo">Boxeo</option>
+			  <option value="escalada">Escalada Deportiva</option>
+			  <option value="esgrima">Esgrima</option>
+			  <option value="gimnasia">Gimnasia Aerobica</option>
+			  <option value="judo">Judo</option>
+			  <option value="karate">Karate Do</option>
+			  <option value="pesas">Levantamiento de Pesas</option>
+			  <option value="lucha">Lucha Universitaria</option>
+			  <option value="taewondo">Taekwondo</option>
+			  <option value="tenisM">Tenis de Mesa</option>
+			  <option value="tenis">Tenis</option>
+			  <option value="tiroA">Tiro con Arco</option>
+		    </select>
+		</div>
+        <div class="w3-section"> 
+	    	<label>Rama: </label>
+		  	<select name="rama" >
+ 			  <option value="varonil">Varonil</option>
+			  <option value="femenil">Femenil</option>
+			  
+		    </select>
+		</div>
+		<div class="w3-section">      
+          <label>Examina la imagen d ela noticia:</label>
+          <input  type="file" name="image">
+        </div>  
+		<input type="hidden" name="nombrea" value="<?php echo $nombrea ?>" >
+			
         <button type="submit" name="submit1" >Agregar</button>
       </form>
       <?php
 		///////////////////////////////  MK USUAURIOS ALTAS  ////////////////////////////////////
 		if(isset($_POST['submit1'])){
-			$respuesta1 =  $_POST['respuesta1'];
-			$respuesta2 =  $_POST['respuesta2'];
-		
+			$dia =  $_POST['dia'];
+			$mes =  $_POST['mes'];
+			$ano =   $_POST['ano'];
+			$titulo =   $_POST['titulo'];
+            $etapa = $_POST['etapa'];
+            $deporte = $_POST['deporte'];
+            $rama = $_POST['rama'];
 			// 1.- IDENTIFICACION nombre de la base, del usuario, clave y servidor
 			require_once('conexiona.php');
 
 			// 2.- CONEXION A LA BASE DE DATOS
 			$link = new mysqli($db_host, $db_login, $db_pswd, $db_name);
 			
-		         $tabla='computo';
-			    $query2="insert into $tabla (respuesta1, respuesta2) VALUES ('$respuesta1','$respuesta2')";
+			
+  			  $revisar = getimagesize($_FILES["image"]["tmp_name"]);
+  			  if($revisar !== false){
+  			      $image = $_FILES['image']['tmp_name'];
+   			     $imgContenido = addslashes(file_get_contents($image));
+				echo $image;
+		         $tabla='noticiasuni';
+			    $query2="insert into $tabla (dianoticia, mesnoticia, anonoticia, imagen, titulonoticia, etapa, deporte, rama, fecha_tiempo) VALUES ('$dia','$mes','$ano','$imgContenido','$titulo','$etapa','$deporte','$rama', NOW())";
 		 	    $result = mysqli_query($link, $query2);
 		    	//echo '<script>alert("Noticia registrada al sistema.")</script>';
 	 	   
 		        if($result){
-                     echo '<script>alert("encuesta registrada y subida correctamente.")</script>';
+                     echo '<script>alert("Noticia registrada y subida correctamente.")</script>';
             	}else{
-                    echo '<script>alert("Ha fallado la subida de la encuesta. Intente nuevamente.")</script>';
+                    echo '<script>alert("Ha fallado la subida de la noticia. Intente nuevamente.")</script>';
        		     } 
-            	
+            // Sie el usuario no selecciona ninguna imagen
+   		     }else{
+               echo '<script>alert("Por favor seleccione una imagen para poder registrar la noticia.")</script>';
+   		    }
+	
 		 mysqli_close($link);
 		}
 		?>	     
