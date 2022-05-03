@@ -122,7 +122,7 @@
 	                <a class="a1 nav-link" data-hover="dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
 	                    <div class="oIcono opcion1"></div>
 <<<<<<< HEAD
-	                    Encuesta 
+	                    Encuesta_prueba
 =======
 	                    Noticias
 >>>>>>> f6b962278fe62bdad9677f131da0f8af9ba8cfa6
