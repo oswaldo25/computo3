@@ -46,6 +46,11 @@ tr:nth-child(even) {
     <td>Johnson</td>
     <td>67</td>
   </tr>
+   <tr>
+    <td>Adam</td>
+    <td>Johnson</td>
+    <td>67</td>
+  </tr>
 </table>
 
 </body>
