@@ -29,27 +29,31 @@ tr:nth-child(even) {
   <tr>
     <th>First Name</th>
     <th>Last Name</th>
-    
+    <th>Points</th>
   </tr>
   <tr>
     <td>Oswaldo </td>
     <td>https://oswaldo25.github.io/computo3/</td>
-    
+    <td>50</td>
   </tr>
   <tr>
     <td>Eve</td>
     <td>Jackson</td>
-    
+    <td>94</td>
   </tr>
   <tr>
     <td>Adam</td>
     <td>Johnson</td>
-   
+    <td>67</td>
   </tr>
    <tr>
     <td>Adam</td>
     <td>Johnson</td>
-   
+    <td>67</td>
+  </tr>
+  <tr>
+    <td>Héctor Eduardo Camberos Ochoa</td>
+    <td><a href="https://hectorcamberos.000webhostapp.com" target="_blank">https://hectorcamberos.000webhostapp.com</a></td>
   </tr>
 </table>
 
