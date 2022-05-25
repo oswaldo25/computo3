@@ -1,4 +1,4 @@
 # computo3.
-repositorio de computo en la nube3.
-este es una prueba de modificaciones en linea utilizanso vc.
-
+Repositorio de la materia Computo en la Nube 
+Aqui se guardaran algunas de las evidencias de las tareas y 
+practicas de la materia Computo en la Nube
